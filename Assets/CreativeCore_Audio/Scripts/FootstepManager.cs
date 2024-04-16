@@ -21,7 +21,7 @@ public class FootstepManager : MonoBehaviour
         source = GetComponent<AudioSource>();            
     }
 
-    public void PlayStep ()
+    public void PlayStep()
     {
         if(currentList == null)
             return;
